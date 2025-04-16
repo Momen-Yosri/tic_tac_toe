@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameBoard</class>
+ <widget class="QWidget" name="GameBoard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="currentPlayerLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="text">
+      <string>Current player: X</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="boardWidget" native="true">
+     <layout class="QGridLayout" name="gridLayout"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="newGameButton">
+     <property name="text">
+      <string>New Game</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui> 
