@@ -37,7 +37,7 @@ A feature-rich Tic Tac Toe game built with C++ and Qt, featuring user authentica
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tic-tac-toe.git
+git clone https://github.com/Momen-Yosri/tic-tac-toe.git
 cd tic-tac-toe
 ```
 
